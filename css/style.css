@@ -1,0 +1,110 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Formative Trial Medium", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Global Style */
+.d-flex{
+    display: flex;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.text-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.text-light-grey{
+    color: rgba(255, 255, 255, 0.8);
+}
+.flex-column{
+    flex-direction: column;
+}
+.pos-abs{
+    position: absolute;
+}
+.pos-rel{
+    position: relative;
+}
+/* Custom Style */
+.bg-img{
+    background-image: url(../images/WhatsApp\ Image\ 2025-08-13\ at\ 7.51.49\ PM.jpeg);
+    background-size: 100% 100%;
+}
+.sec1{
+    height: 95vh;
+}
+nav{
+    padding-top: 1%;
+}
+.btn-started{
+    border: none;
+    border-radius:  9999px;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+.div-sec1{
+    width: 55%;
+}
+.div2-sec1{
+    width: 23%;
+}
+nav ul{
+    width: 70%;
+}
+.div3-sec1{
+    margin-top: 10%;
+    height: 50vh;
+    width: 50%;
+}
+.p1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.img1{
+    width: 25%;
+}S
+.p2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-shop{
+    border: 1px solid white;
+    border-radius:  9999px;
+    padding: 3% 10% 3% 3%; 
+    background-color: transparent;
+    cursor: pointer;
+}
+.div-img{
+    top: 18%;
+    left: 17%;
+}
+.img2{
+    width: 85%;
+}
