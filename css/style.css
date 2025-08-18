@@ -52,6 +52,18 @@ a{
 .pos-rel{
     position: relative;
 }
+.text-blue-grey{
+    color: rgba(16, 24, 40, 1);
+}
+.text-white{
+    color: white;
+}
+.bg-purple{
+    background-color: rgba(16, 24, 40, 1);
+}
+.text-grey{
+    color:  rgb(191 184 184);
+}
 /* Custom Style */
 .bg-img{
     background-image: url(../images/WhatsApp\ Image\ 2025-08-13\ at\ 7.51.49\ PM.jpeg);
@@ -81,7 +93,7 @@ nav ul{
 .div3-sec1{
     margin-top: 10%;
     height: 50vh;
-    width: 50%;
+    width: 52%;
 }
 .p1{
     font-size: 50px;
@@ -107,4 +119,63 @@ nav ul{
 }
 .img2{
     width: 85%;
+}
+.hidden-element{
+    display: none;
+}
+.p1 p {
+  line-height: 1.1;
+}
+.img3{
+    margin-top: 11%;
+    height: 4vh;
+    width: 21%;
+}
+.p-shop{
+    font-size: 35px;
+    font-weight: 500;
+}
+.div-sec2{
+    margin-top: 5%;
+    width: 10%;
+}
+.search-input{
+    background-color: rgba(244, 244, 244, 1);
+    padding: 0% 4% 0% 3%;
+    border: none;
+    border-radius:  9999px;
+}
+.p-featured{
+    font-size: 35px;
+    font-weight: 600;
+}
+.search-input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+}
+.search-icon{
+    color: rgba(16, 24, 40, 0.38);
+    right: 199px;
+    top: 37%;
+}
+.btn{
+    border-radius: 8px;
+    padding: 7px 2%;
+}
+.card{
+    height: 45vh;
+    width: 23%;
+}
+.card2{
+    margin: 0% 1%;
+}
+.div2-sec2{
+    margin-top: 3%;
+    border: 1px solid rgb(191 184 184);
+}
+.div3-sec2{
+    margin: 3%;
+}
+.div4-sec2{
+    margin: 3% 0%;
 }

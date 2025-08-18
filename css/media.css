@@ -1,0 +1,17 @@
+
+
+/* 0 : 400 */
+@media (max-width:400px){
+.d-none{
+    display: none;
+}
+.hidden-element{
+    display: block;
+}
+.container{
+    width: 90%;
+}
+.div-sec1 {
+width: 60%;
+}
+}
